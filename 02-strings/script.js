@@ -12,8 +12,8 @@ console.log(name);
 
 let text = 'Zizou ha indossato la maglia numero ';
 
-// Selezionare numero randoom
-let number = Math.floor(Math.random(0) * 100);
+// Selezionare numero random da 1 a 99
+let number = Math.floor(Math.random() * 99) +1;
 
 //Stabilire i numeri che sono sempre true (Array = variabile con più valori)
 const numeriZidane = [5, 7, 10, 11, 21];
