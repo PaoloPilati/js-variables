@@ -12,7 +12,7 @@ console.log(name);
 
 let text = 'Zizou ha indossato la maglia numero ';
 
-// Selezionare numero random da 1 a 99
+// Selezionare numero random da 1 a 99 ---> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
 let number = Math.floor(Math.random() * 99) +1;
 
 //Stabilire i numeri che sono sempre true (Array = variabile con più valori)
@@ -32,7 +32,7 @@ const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'; // NON MODIFICARE QUESTA RIGA
 const firstName = 'Jane'; // NON MODIFICARE QUESTA RIGA
 const lastName = 'Smith'; // NON MODIFICARE QUESTA RIGA
 
-const fullName = firstName + " " + lastName;
+const fullName = `${firstName} ${lastName}`;
 console.log(fullName); // Output: "Jane Smith"
 
 // 4. Imposta questa variabile utilizzando una proprietà
